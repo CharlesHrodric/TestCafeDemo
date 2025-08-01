@@ -1,0 +1,5 @@
+# Ignore compiled output and temporary dependencies
+node_modules/
+dist/
+*.log
+package-lock.json

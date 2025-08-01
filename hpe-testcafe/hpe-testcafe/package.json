@@ -1,0 +1,14 @@
+{
+  "name": "hpe-testcafe-demo",
+  "version": "1.0.0",
+  "description": "A simple TestCafe project demonstrating basic end‑to‑end tests against the HPE Private Cloud and HPE GreenLake websites using a Page Object Model architecture.",
+  "scripts": {
+    "test": "testcafe chromium tests/*.test.ts",
+    "test:private": "testcafe chromium tests/privateCloud.test.ts",
+    "test:greenlake": "testcafe chromium tests/greenLake.test.ts"
+  },
+  "devDependencies": {
+    "testcafe": "^3.7.2",
+    "typescript": "^5.3.3"
+  }
+}
